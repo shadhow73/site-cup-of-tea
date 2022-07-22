@@ -1,0 +1,626 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Amarante', cursive;
+    color: rgb(163, 188, 6);
+}
+
+p, a{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+body{
+    font-size: 1.2rem;
+}
+
+li{
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+a:visited{
+    color: white;
+}
+
+footer h3{
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.footer article a{
+    color: rgba(255, 255, 255, 0.596);
+}
+
+
+/* HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+body{
+    position: relative
+}
+
+.elu img{
+    width: 6rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+
+.fond_header{
+    background-image: url(img/bg.jpg);
+}
+
+.livraison p{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.livraison{
+    background-color: #879e0e;
+    padding: 0.5rem 0rem;
+}
+
+.logo_panier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+nav a{
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 0.5rem 0.5rem;
+}
+
+nav a:hover{
+    border: 1px solid white;
+    padding: 0.5rem 0.5rem;
+    background-color: #879e0e;;
+}
+
+.logo_panier p{
+    color: white;
+}
+
+header{
+    padding-bottom: 2.5rem;
+}
+
+.prix::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f07a";
+    font-weight: 600;
+}
+
+
+/* PROMO SLIDERS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+h1{
+    color: rgb(163, 188, 6);
+    margin-bottom: 2rem;
+}
+
+.promo{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.slider{
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.slick-next {
+    right: 30px;
+}
+.slick-prev {
+    left: 15px;
+    z-index: 2;
+}
+
+.slick-prev::before, .slick-next::before{
+    font-size: 2rem;
+}
+
+.slick-dots li button::before{
+    font-size: 1rem;
+}
+
+/* MAIN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+figure{
+    transition: transform 0.5s;
+}
+
+figure:hover{
+    transform: scale(1.2);
+}
+
+.the article a:hover{
+    opacity: 1;
+}
+
+.the:hover a{
+    opacity: 0.5; 
+}
+
+
+.promo img{
+    width: 100%;
+}
+
+
+.the article{
+    display: flex;
+    justify-content: space-around;
+}
+
+figcaption{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+h2{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.the{
+    background-color: white;
+}
+
+.news{
+    background-color: white;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.news article{
+    text-align: center;
+    width: 30%;
+}
+
+.news a, .page_the1 a{
+    background-color: #b09067;
+    padding: 0.5rem 1rem;
+    color: white;
+    margin-top: 2rem;
+}
+
+.news a:hover, .page_the1 a:hover{
+    color: #b09067;
+    background-color: white;
+    border: 1px solid #b09067;
+}
+
+.prix_the p{
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.prix2{
+    font-weight: bold;
+}
+
+.news p{
+    padding: 0rem 2rem;
+}
+
+/* FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.pre_footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #879e0e;
+    color: rgba(255, 255, 255, 0.589);
+    padding-bottom: 1rem;
+    height: 5rem;
+    margin-top: 3rem;
+}
+
+.pre_footer article{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.licence{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    background-color: #869e0e94;
+}
+
+.licence img{
+    width: 60px;
+}
+
+footer section h3{
+    font-size: 1.4rem;
+}
+
+
+
+
+/* Page Thes !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.the_noir img{
+    width: 250px;
+}
+
+.texte_the{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    margin-top: -1.5rem;
+}
+
+.texte_the img{
+    float: left;
+    width: 150px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.the_noir{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;   
+    margin-top: 3rem; 
+}
+
+
+.page_the1{
+    background-color: white;
+    margin-top: 1.8rem;
+    padding: 2rem 2rem;
+}
+
+.page_the1 h2{
+    text-align: left;
+    font-size: 1.8rem;
+}
+
+.page_the1 h3{
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.texte_the p{
+    padding-left: 10rem;
+    padding-right: 5rem;
+    margin-top: -1.5rem;
+}
+
+/* Page about !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.about img{
+    float: left;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.about2 img{
+    margin-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.about p, .about2 p{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.h2_about{
+    text-align: left;
+    color: rgb(95, 95, 95);
+}
+
+.about2 img{
+    float: right;
+}
+
+.about{
+    margin-bottom: 2rem;
+}
+
+.concept{
+    display: flex;
+    text-align: center;
+    margin-top: 3rem;
+    background-color: rgb(219, 224, 183);
+    padding: 2rem 2rem;
+}
+
+.fa-face-smile, .fa-heart, .fa-face-smile{
+    color: white;
+    font-size: 3rem;
+    background-color: #879e0e;
+    border-radius: 3rem;
+    padding: 1.5rem;
+}
+
+.concept h4{
+    color: gray;
+    margin-top: 0.5rem;
+}
+
+.concept article{
+    margin: 3rem 1.5rem
+}
+
+.concept article p{
+    margin-top: 2rem;
+}
+
+main section{
+    background-color: white;
+    padding: 1rem 2rem;
+}
+
+/*Page product */
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: white;
+}
+
+.text_product{
+    padding: 1rem;
+    background-color: white;
+}
+
+.product h2, strong{
+    text-align: left;
+    color: grey;
+    padding-bottom: 0;
+}
+
+.the_panier{
+    margin-top: 5rem;
+}
+
+.the_panier a{
+    background-color: #b09067;
+    padding: 0.5rem 1rem;
+    color: white;
+    display: block;
+    margin-top: 5rem;
+}
+
+.liste{
+    color:rgb(163, 188, 6);
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.liste::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f004";
+    font-weight: 600;
+    color: red;
+    margin-right: 0.5rem;
+}
+
+.ref{
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+.prix_product{
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+    /* media querries !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    
+    /*tablette*/
+    
+    @media screen and (max-width: 980px){
+        .logo_panier{
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+    
+        .promo img{
+            width: 100%;
+        }
+    
+        .slider img{
+            width: 100%;
+        }
+    
+        .news{
+            flex-direction: column;
+        }
+    
+        .news article{
+            width: 100%;
+        }
+    
+        .news h2{
+            margin-top: 2rem;
+        }
+    
+        .the article figure{
+            width: 40%;
+            text-align: center;
+        }
+    
+        .the article{
+            flex-wrap: wrap;
+        }
+
+        header nav{
+            margin: 0rem 2rem;
+        }
+
+
+        /* Page THE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+        .the_noir{
+            flex-direction: column;
+            margin-top: -1.5rem;
+        }
+
+        .the_noir article{
+            margin-top: 3rem;
+        }
+
+        .texte_the img{
+            display: none;
+        }
+
+        .texte_the h2{
+            padding: 1rem 0rem;
+        }
+        .texte_the p{
+            padding: 1rem 0rem;
+        }
+        
+        /*Page about !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+        .about img, .about2 img{
+            width: 600px
+        }
+
+        .concept{
+            flex-direction: column;
+        }
+        
+    }
+    
+    /* Mobile !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    
+    @media screen and (max-width: 780px){
+    
+        .logo_panier{
+            flex-direction: column-reverse;
+            padding-top: 3rem;
+            margin-top: 1rem;
+        }
+    
+        nav ul{
+            display: block;
+            text-align: center;
+        }
+    
+        nav ul li{
+            margin-top: 1.5rem;
+        }
+    
+        .promo, .slider{
+            display: none;
+        }
+
+        .footer{
+            flex-direction: column;
+        }
+
+        .pre_footer{
+            flex-wrap: wrap;
+            height: 15rem;
+        }
+
+        .pre_footer article{
+            width: 40%;
+        }
+
+        .elu img{
+            display: none;
+        }
+
+        .panier_mobile{
+            display: none;
+        }
+
+        .panier{
+            position: absolute;
+            padding: 0.5rem 0.5rem 0.5rem 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.034);
+            border-radius: 0px 20px 20px 0px;
+            box-shadow: 1px 0px 5px grey;  
+            left: 0;
+            top: 0;
+        }
+
+        header{
+            position: relative;
+        }
+
+
+        /* Page about !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+        
+        .about img, .about2 img{
+            width: 100%;
+            padding-right: 0;
+            padding-left: 0;
+            padding-bottom: 2rem;
+        } 
+    }
